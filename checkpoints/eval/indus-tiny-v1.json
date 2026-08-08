@@ -1,0 +1,42 @@
+{
+  "model_version": "indus-tiny-v1",
+  "parameter_count": 1120392,
+  "tokenizer": "char",
+  "timestamp": 1786217870.9594543,
+  "config": {
+    "name": "full"
+  },
+  "results": [
+    {
+      "name": "perplexity",
+      "score": 4.334380244149301,
+      "n": 1,
+      "mean": 4.334380244149301,
+      "std": 0.0,
+      "details": {
+        "tokens": 196,
+        "nll": 287.44941234588623
+      }
+    },
+    {
+      "name": "code_completion",
+      "score": NaN,
+      "n": 0,
+      "mean": 0.0,
+      "std": 0.0,
+      "details": {
+        "note": "no applicable tests for this tokenizer vocab"
+      }
+    },
+    {
+      "name": "math_exact_match",
+      "score": NaN,
+      "n": 0,
+      "mean": 0.0,
+      "std": 0.0,
+      "details": {
+        "note": "no applicable tests for this tokenizer vocab"
+      }
+    }
+  ]
+}

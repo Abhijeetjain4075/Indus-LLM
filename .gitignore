@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*~
+Thumbs.db
+
+# Secrets — NEVER commit
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+.kaggle/
+.config/
+
+# Trained checkpoints (too large for normal git history)
+# Track them with DVC, git-lfs, or external storage instead.
+checkpoints/**/*.pt
+checkpoints/**/*.bin
+checkpoints/**/model/
+checkpoints/**/optimizer/
+
+# Generated data (large, regenerable)
+data/**/*.bin
+data/**/*.txt
+!data/.gitkeep
+
+# Experiment outputs
+checkpoints/eval/
+experiments.jsonl
+
+# Logs
+*.log
+training.log
+runs/
+
+# Build artifacts
+*.tar.gz
+*.zip
